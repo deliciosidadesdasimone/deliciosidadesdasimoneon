@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*html, body {
+    min-height: 100%;
+}*/
+
+/* corpo da página */
+body{
+   background-image:url("imagens/backgroundbolo2.jpg");
+   background-position: center;
+   background-repeat: space;
+   background-color: rgba(255, 255, 255, 0.3);
+   background-size: cover;
+   position: center;
+   padding: 0;
+   margin: 0; 
+}
+
+
+/* Estilização do menu */
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    left: 750px;
+}
+/* Estilização do menu */
+nav#menu li{
+    display: inline-block;
+    background-color: palevioletred;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+/* Estilização do menu */
+nav#menu{
+    display: block;
+}
+/* Estilização do menu */
+nav#menu li:hover{
+    background-color: #be5679;
+}
+/* Estilização do menu */
+nav#menu a{
+    color: #ffff;
+    text-decoration: none;
+}
+/* Estilização do menu */
+nav#menu a:hover{
+    color: aqua;
+}
+
+/* Minha história (Simone)*/
+#sideBar{
+	width: 350px;
+    height: 690px;
+    float: left;
+    background: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+/* Estilização do minha história*/
+aside#a{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+/* Estilização do body */
+h1#fonte{
+    font-family: 'Rum Raisin', sans-serif;
+    font-size: 50px;
+}
+/* Estilização do body */
+p#fonte2{
+    font-size: 25px;
+    font-family: 'Grand Hotel', cursive;
+}
+/* Estilização dos link do menu */
+a#cor{
+  background-color: palevioletred; 
+  text-decoration: none;
+  padding: 10px;
+  margin: 2px;
+  transition: background-color 1s;
+  color: #ffffff;
+}
+/* Estilização do body */
+a#cor:hover{
+   background-color: #be5679;
+   color: aqua;
+}
+/* Estilização do body */
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+
+p#texto{
+    text-align: center;
+    margin-left: 360px;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Grand Hotel', cursive;
+}
+/* Estilização do card de promoções, kits e bolos. */
+
+article#centro{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    float: right;
+    position: relative;
+}
+
+#bolos{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+#kit{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+#pro{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+/* Página dos bolos */
+#card01 {
+    
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 300px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        top: auto; left: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  
+}
+
+#card02 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 300px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 320px; left: 370px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card03 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 350px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 620px; left: 630px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card04 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 350px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 580px; left:100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card05 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 350px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 930px; left: 370px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card06 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 400px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1280px; left: 630px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card07 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 350px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1220px; left: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card08 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 400px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1570px; left: 370px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+#card09{
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 400px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1970px; left: 630px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card10{
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 400px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1900px; left: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+/* Página dos Kit's */
+#card11 {
+    
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 340px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        top: 29px; left: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  
+}
+
+#card12 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 300px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 330px; left: 370px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+
+
+#card13 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 310px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 650px; left: 630px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card14 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 310px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 620px; left:100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card15 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 310px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 950px; left: 370px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card16 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 320px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1280px; left: 630px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card17 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 370px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1220px; left: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card18 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 400px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 1610px; left: 370px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card19 {
+    
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 300px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        top: auto; left: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  
+}
+
+#card20 {
+    
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 250px;
+    height: 260px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        top: auto; left: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  
+}
+
+#card21 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 620px; left: 630px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#card22 {
+   
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 230px;
+    height: 350px;
+    background-color: rgba(123, 255, 255, 0.383);
+    position: relative;
+        bottom: 620px; left: 630px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+/* Página de salagados */
+article#promo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    float: right;
+    position: relative;
+}
+
+#promo01{
+
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 250px;
+    height: 150px;
+    position: relative;
+        bottom: -10px; right: 650px;
+    
+
+}
+
+#promo02{
+
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 250px;
+    height: 150px;
+    position: relative;
+        top: -150px; left: 290px;
+
+}
+
+#promo03{
+
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 250px;
+    height: 150px;
+    position: relative;
+        top: -155px; left: 290px;
+
+}
+
+#promo04{
+
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 250px;
+    height: 150px;
+    position: relative;
+        top: 50px; right: 580px;
+
+}
+
+#promo05{
+
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    width: 250px;
+    height: 140px;
+    position: relative;
+        top: -155px; left: 290px;
+
+}
+
+#promo06{
+
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    width: 250px;
+    height: 112px;
+    position: relative;
+        top: -140px; left: 290px;
+
+}
+
+#promo07{
+
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    width: 250px;
+    height: 100px;
+    position: relative;
+        top: 40px; right: 286px;
+
+}
+
+
+
+
+
+/* Estilização do card de promoções, kits e bolos. */
+#card01:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  }
+#card02:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card03:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card04:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card05:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card06:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card07:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card08:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+#card09:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+#card10:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card11:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card12:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card13:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card14:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card15:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card16:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card17:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#card18:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+  /* Estilização do card de promoções, kits e bolos. */
+.container {
+    padding: 2px 16px;
+  }
+
+article#centro{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    float: center;
+    position: relative;
+}
+/* Estilização do link's  */
+a#wpp{
+    size: 10px;
+    left: 92%;
+    bottom: -40px;
+}
+
+a#facebook{
+    size: 10px;
+    left: 82%;
+    bottom: -40px;
+}
+
+a#insta{
+
+    size: 10px;
+    left: 72%;
+    bottom: -40px;
+}
+
+a#tok{
+
+    size: 10px;
+    position: relative;
+        left: 295px; bottom: 90px;
+}
+
+.redesociais{
+    position: relative;
+        left: 390px;
+    max-width: 50%;
+
+}
+
+
+/* Estilização da página de contatos. */
+#google{
+    position: relative;
+    display: block;
+    margin: 0px 550px;
+    
+}
+p#en{
+    font-family: 'Grand Hotel'; 
+    font-size: 30px; 
+    text-align: center;
+    position: center;
+    padding-right: 100px;
+}
+
+/* Estilização do slide principal */
+#slide{
+    width: 20%;
+    /*max-width: 500px;*/
+    height: 250px;
+    /*max-height: 150px;*/
+    position: relative;
+    display: block;
+    padding-left: 35%;
+    padding-top: 5%;
+    
+}
+
+#slide img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slide img.selected{
+    opacity: 1;
+}
+
+
+/* Estilização do rodapé */
+footer {
+
+    background-color: rgba(173, 22, 219, 0.4);
+    color: #000000;
+    font-size: 14px;
+    font-family: Verdana;
+    width: 100%;
+    height: 180px;    
+    text-align: center;
+    line-height: 50px;
+    clear: both;
+}
+
+#redessociaisrodape{
+    line-height: 10px;
+}
+
+
+/* resposividade do site*/
+
